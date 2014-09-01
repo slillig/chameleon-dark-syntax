@@ -1,0 +1,11 @@
+{
+  "name": "chameleon-dark-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "Syntax theme for HTML, CSS, LESS, SASS, SCSS, JavaScript and JSON",
+  "repository": "https://github.com/slillig/chameleon-dark-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
