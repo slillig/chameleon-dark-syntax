@@ -16,7 +16,9 @@ Then go to `Atom > Preferences > Themes` and in the `Syntax Themes` dropdown, se
 
 ### Optional customization for seti-ui theme
 
-Then go to `Atom > Open Your Stylesheet` and in the css file, past the following styles:
+These are optional preferences to work with the <a href="https://github.com/jesseweed/seti-ui">seti-ui</a>.
+
+Go to `Atom > Open Your Stylesheet` and in the css file, past the following styles:
 
 ```sh
 .editor .cursor {
