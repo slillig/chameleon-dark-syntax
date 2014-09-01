@@ -2,4 +2,4 @@
 
 Syntax theme for HTML, CSS, LESS, SASS, SCSS, JavaScript and JSON.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+![chameleon-dark-syntax theme for Atom](http://imgur.com/mZu5N3s)
