@@ -143,7 +143,7 @@
 }
 
 .string {
-  color: @light-gray;
+  color: @asparagus;
 
   &.double {
     &.quoted {
@@ -257,6 +257,7 @@
     &.id {
       color: @dark-sky;
       background-color: @asparagus;
+      font-weight: bold;
     }
   }
 }
@@ -455,7 +456,7 @@
       }
       &.set.variable {
         .punctuation {
-          color: @alien;
+          color: @pinky;
         }
       }
     }
@@ -474,7 +475,7 @@
       color: @purply;
     }
     .property-value {
-      color: @pinky;
+      color: white;
     }
     .color {
       color: @pinky;
@@ -512,7 +513,7 @@
       }
     }
     .terminator {
-      color: white;
+      color: @bright-red;
     }
     .rgb-value {
       color: @pinky;
@@ -565,7 +566,15 @@
       }
 
       .property-value {
-        color: @pinky;
+        color: white;
+        .string {
+          &.quoted {
+            &.single,
+            &.double {
+              color: @asparagus;
+            }
+          }
+        }
       }
       .constant {
         color: @pinky;
@@ -573,9 +582,7 @@
       .unit {
         color: red;
       }
-      .pseudo-class {
-        color: @tangerine;
-      }
+
       .keyword {
         color: red;
       }
@@ -590,6 +597,9 @@
       color: @tangerine;
     }
     .pseudo-element {
+      color: @tangerine;
+    }
+    .pseudo-class {
       color: @tangerine;
     }
   }
@@ -634,11 +644,13 @@
   }
 }
 
-.source.css .meta .punctuation.separator,
-.source.sass .meta .punctuation.separator,
-.source.scss .meta .punctuation.separator,
-.source.less .meta .punctuation.separator {
-  color: @alien;
+.source.css,
+.source.sass,
+.source.scss,
+.source.less {
+   .meta .punctuation.separator {
+      color: white;
+    }
 }
 
 .source.gfm .markup {

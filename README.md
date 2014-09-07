@@ -21,27 +21,49 @@ These are optional preferences to work with the <a href="https://github.com/jess
 Go to `Atom > Open Your Stylesheet` and in the css file, past the following styles:
 
 ```sh
-.editor .cursor {
-  color: #00FF00;
+.editor {
+  // change cursor to alien green
+  .cursor {
+    color: #00FF00;
+  }
 }
-.name.icon[data-name*=".html"].icon-file-text:before {
-  color: #408000;
+// change seti-ui html tree icon to green
+.name.icon[data-name*=".html"] {
+  &.icon-file-text:before {
+    color: #408000;
+  }
 }
-.tab-bar .tab .title[data-name*=".css"]:before,
-.tab-bar .tab .title[data-name*=".less"]:before,
-.tab-bar .tab .title[data-name*=".sass"]:before,
-.tab-bar .tab .title[data-name*=".scss"]:before,
-.name.icon[data-name*=".less"].icon-file-text:before,
-.name.icon[data-name*=".sass"].icon-file-text:before,
-.name.icon[data-name*=".scss"].icon-file-text:before,
-.name.icon[data-name*=".css"].icon-file-text:before  {
-  color: #C21BFF;
+// change seti-ui styles tree icon to purple
+.name.icon[data-name*=".less"],
+.name.icon[data-name*=".sass"],
+.name.icon[data-name*=".scss"],
+.name.icon[data-name*=".css"] {
+  &.icon-file-text:before  {
+    color: #C21BFF;
+  }
 }
-.tab-bar .tab .title[data-name*=".html"]:before {
-  color: #408000;
+
+.tab-bar .tab {
+  // change seti-ui styles tab icon to purple
+  .title[data-name*=".css"]:before,
+  .title[data-name*=".less"]:before,
+  .title[data-name*=".sass"]:before,
+  .title[data-name*=".scss"]:before {
+    color: #C21BFF;
+  }
+  // change seti-ui html tab icon to green
+  .title[data-name*=".html"]:before {
+    color: #408000;
+  }
+  // change seti-ui selected tab to gray
+  &.active,
+  &.active:before {
+    border-bottom: solid 4px #555;
+  }
 }
-.tab-bar .tab.active,
-.tab-bar .tab.active:before {
-  border-bottom: solid 4px #555;
+// change tree view selected to gray
+.focusable-panel:focus .selected:before {
+	background: #555;
 }
+
 ```

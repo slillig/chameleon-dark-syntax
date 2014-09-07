@@ -3,3 +3,7 @@
 
 ## 0.0.2 - Github Info Release
 * Updated readme info regarding installation and customization
+
+## 0.0.3 - Minor Updates
+* Minor updates to base.less for more color consistency across CSS files
+* Adusted CSS markup and added comments in Atom styles.less preferences
