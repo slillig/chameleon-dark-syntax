@@ -10,3 +10,6 @@
 
 ## 0.0.4 - Tagging
 * Tag correction
+
+## 0.0.5 - Readme Updates
+* Updated readme info
