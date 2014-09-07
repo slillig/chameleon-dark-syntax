@@ -14,6 +14,8 @@ Then go to `Atom > Preferences > Themes` and in the `Syntax Themes` dropdown, se
 
 ![chameleon-dark-syntax theme for Atom](http://i.imgur.com/cTYmwsL.jpg)
 
+![chameleon-dark-syntax theme for Atom](http://i.imgur.com/aOtpAik.png)
+
 ### Optional customization for seti-ui theme
 
 These are optional preferences to work with the <a href="https://github.com/jesseweed/seti-ui">seti-ui</a>.
